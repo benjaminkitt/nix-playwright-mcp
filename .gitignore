@@ -1,0 +1,26 @@
+# Nix build outputs
+result
+result-*
+
+# direnv cache
+.direnv/
+
+# Environment files
+.env
+.env.local
+
+# Browser profiles (if symlinked)
+chrome-profile/
+firefox-profile/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
