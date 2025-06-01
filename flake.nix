@@ -225,7 +225,7 @@
             echo "⚙️  Configuration file: ${mcp-config}"
             echo ""
             echo "🔗 To use in AI development environments:"
-            echo "  Add this URL: github:your-username/playwright-mcp-nix"
+            echo "  Add this URL: github:benjaminkitt/playwright-mcp-nix"
             echo ""
 
             # Set up environment variables
