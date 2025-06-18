@@ -81,7 +81,7 @@ Add this flake as a development environment URL:
 {
   "devEnvironments": {
     "playwright-mcp": {
-      "url": "github:benjaminkitt/playwright-mcp-nix"
+      "url": "github:benjaminkitt/nix-playwright-mcp"
     }
   }
 }
@@ -94,7 +94,7 @@ Or for Claude Desktop MCP configuration:
   "mcpServers": {
     "playwright": {
       "command": "nix",
-      "args": ["run", "github:benjaminkitt/playwright-mcp-nix"]
+      "args": ["run", "github:benjaminkitt/nix-playwright-mcp"]
     }
   }
 }
